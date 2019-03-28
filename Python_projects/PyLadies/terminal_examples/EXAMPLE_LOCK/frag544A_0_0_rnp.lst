@@ -1,0 +1,288 @@
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXE  -  PHASING AND DENSITY MODIFICATION  -  Version 2016/1  +
+ +  Copyright (c)  George M. Sheldrick 2001-16                      +
+ +  Started at 18:26:15 on 21 Apr 2016                              +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Please cite: G.M. Sheldrick (2010), "Experimental phasing with
+ SHELXC/D/E: combining chain tracing with density modification",
+ Acta Cryst. D66, 479-485 (Open Access) if SHELXE proves useful.
+
+ Command line parameters:
+  3.pda -m10 -a1 -s0.6 -v0 -u2999 -t10 -q -y2.10 -x
+
+ Cell and symmetry from: 3.pda
+ Phases calculated using atoms from: 3.pda
+ Native data from: 3.hkl
+ Listing output to 3.lst
+ Phases output to 3.phs
+ Poly-Ala trace output to 3.pdb
+
+ Summary of parameters to be employed:
+
+ -a     1  iterations autotracing
+ -b   5.0  extra B for revised heavy atom sites
+ -c 0.400  fraction of pixels in crossover region
+ -d 0.000  high resolution limit to be applied to input data
+ -e unset  fill in missing data up to maximum resolution + 0.2 Ang.
+ -f unset  read intensity not F from native .hkl file
+ -F 0.800  fractional weight for phases from previous global cycle
+ -g 1.100  solvent gamma flipping factor
+ -i unset  no structure inversion
+ -k   4.5  minimum height/sigma for revised heavy atom sites
+ -l     2  space for  2000000 reflections
+ -L     6  minimum number of residues per chain (if more than 3 chains)
+ -m    10  cycles of density modification
+ -G 0.700  FOM threshold for initial tripeptides and chain extension
+ -n unset  do not apply NCS in autotracing
+ -o unset  do not optimize input fragment by omitting residues
+ -q unset  no alpha-helix search
+ -r  3.00  map resolution (multiplies maximum indices)
+ -s 0.600  solvent fraction
+ -t 10.00  time factor for peptide searches (increase if difficult)
+ -u  2999  MB allocatable memory for fragment optimization
+ -U  0.00  abort if less than this % of fragment CA retained within 0.7A
+ -v 0.000  density sharpening factor
+ -w 0.200  weight for experimental phases after cycle 1
+ -x     2  read name.ent, generate phase and trace diagnostics
+ -y  2.10  highest resolution in Ang. for starting phases from model
+ -z unset  do not optimize heavy atoms
+
+ Space group: P 63   Allowed origin shift code:  8
+
+    51150 Reflections read from file 3.hkl
+
+    51137 Unique data, highest resolution =  2.100 Angstroms
+
+ Anisotropic scaling: intensities multiplied by
+ -0.000092h^2 -0.000092k^2 +0.001691l^2 +0.000000kl +0.000000hl -0.000092hk
+
+     6 Reflections with d > 2.300 and      0 in range  2.300 > d > 2.300 added
+
+  2780 Atoms read from PDB format file 3.ent
+
+ Fourier grid =   256 x  256 x   40     0.000 <= z <= 0.500
+
+    92 Point spherical net set up with radius 2.42A
+    24 Extra Fourier layers will be generated
+
+ <|E^2-1|> = 0.763
+
+  1300 Atoms read from PDB format file 3.pda
+
+     0 NCS groups defined in .pda input file
+
+ Overall CC between native Eobs and Ecalc (from fragment) = 10.35%
+
+ Statistics for fragment phases:
+ <cos> 0.196 / 0.190  <fom> 0.331 / 0.651  MPE  75.5 / 72.9  wMPE 69.2 / 67.5
+ Starting from fragment phases truncated to  2.100A
+
+ <cos> 0.203 / 0.190  <fom> 0.363 / 0.651  MPE  75.0 / 72.9  wMPE 69.2 / 67.5
+ <wt> = 0.331 for fragment phases
+ <cos> 0.206 / 0.189  <fom> 0.300 / 0.506  MPE  74.8 / 73.0  wMPE 69.1 / 67.1
+ <wt> = 0.274, Contrast = 0.371, Connect. = 0.607 for dens.mod. cycle 1
+ <cos> 0.208 / 0.192  <fom> 0.300 / 0.512  MPE  74.6 / 72.7  wMPE 68.6 / 65.5
+ <wt> = 0.274, Contrast = 0.386, Connect. = 0.585 for dens.mod. cycle 2
+ <cos> 0.211 / 0.196  <fom> 0.300 / 0.518  MPE  74.4 / 72.4  wMPE 68.2 / 64.5
+ <wt> = 0.274, Contrast = 0.421, Connect. = 0.602 for dens.mod. cycle 3
+ <cos> 0.214 / 0.201  <fom> 0.300 / 0.524  MPE  74.2 / 71.9  wMPE 67.9 / 63.8
+ <wt> = 0.274, Contrast = 0.447, Connect. = 0.617 for dens.mod. cycle 4
+ <cos> 0.216 / 0.202  <fom> 0.300 / 0.529  MPE  74.1 / 71.8  wMPE 67.5 / 63.4
+ <wt> = 0.274, Contrast = 0.469, Connect. = 0.630 for dens.mod. cycle 5
+ <cos> 0.218 / 0.200  <fom> 0.300 / 0.535  MPE  73.9 / 72.0  wMPE 67.2 / 63.0
+ <wt> = 0.274, Contrast = 0.487, Connect. = 0.643 for dens.mod. cycle 6
+ <cos> 0.220 / 0.209  <fom> 0.300 / 0.538  MPE  73.7 / 71.2  wMPE 66.9 / 62.8
+ <wt> = 0.274, Contrast = 0.503, Connect. = 0.654 for dens.mod. cycle 7
+ <cos> 0.223 / 0.209  <fom> 0.300 / 0.540  MPE  73.5 / 71.2  wMPE 66.6 / 62.6
+ <wt> = 0.274, Contrast = 0.519, Connect. = 0.663 for dens.mod. cycle 8
+ <cos> 0.225 / 0.213  <fom> 0.300 / 0.540  MPE  73.3 / 70.8  wMPE 66.3 / 62.5
+ <wt> = 0.274, Contrast = 0.531, Connect. = 0.671 for dens.mod. cycle 9
+ <cos> 0.228 / 0.215  <fom> 0.300 / 0.540  MPE  73.2 / 70.6  wMPE 66.0 / 62.4
+ <wt> = 0.274, Contrast = 0.545, Connect. = 0.679 for dens.mod. cycle 10
+
+ Shift from model in .ent:  dx= 0.000  dy= 0.000  dz= 0.014
+
+ NOGO map generated for regions about rotation axes (if any)
+
+  4889 peaks > 0.5 sigma used to seed fragment search
+
+   561 potential (overlapping) alpha-helix fragments found
+
+   #(CA)   CFOM   DenFit  NH...O  SecStr  Rama98  Rama80  DenMin (?=rej.)
+ A:   31  68.092   2.663   0.970   0.689   0.933   0.633  CB 2.135
+  5.60 10.40 13.60 15.20 17.60  5.60  1.60  3.20  2.40  24.800   5.603   0.695
+ B:   29  37.859   2.722   0.421   0.501   0.857   0.571  CB 2.155
+  0.85  2.56  6.84 10.26  6.84 14.53  5.13  2.56  0.00  50.427   5.244   1.174
+ C:   45  48.642   2.729   0.364   0.555   0.886   0.659  CB 2.106
+  2.21 11.60 15.47 15.47  7.18  8.84  4.97  1.66  3.31  29.282   8.113   0.766
+    30 residues pruned to eliminate duplicates
+ D:   13  27.159   2.526   0.836   0.602   0.750   0.667  CB 2.045
+  0.00  1.89  0.00  9.43  7.55  5.66 18.87  5.66  1.89  49.057   2.376   1.099
+ E:   20  20.379   2.328   0.572   0.465   0.789   0.474  CB 1.677
+  1.23  6.17  4.94  7.41  7.41  8.64  0.00  1.23  0.00  62.963   3.631   1.415
+ F:   21  28.941   2.351   0.529   0.535   0.900   0.450  CB 1.933
+  2.35  3.53  3.53  0.00 10.59  9.41  7.06  2.35  3.53  57.647   3.810   1.442
+ G:   34  25.764   2.290   0.536   0.441   0.818   0.455  CB 1.656
+  0.73  4.38 11.68  5.11  8.03  2.92  1.46  0.73  1.46  63.504   6.141   1.522
+    17 residues pruned to eliminate duplicates
+ H:   24  30.305   2.536   0.357   0.569   0.870   0.652  CB 1.976
+  0.00  2.06  4.12 13.40  7.22  3.09  1.03  3.09  0.00  65.979   4.348   1.469
+ I:   16  15.911   2.332   0.339   0.465   0.733   0.467  CB 1.860
+  0.00  0.00  9.23 12.31 12.31  4.62  4.62  3.08  0.00  53.846   2.913   1.330
+ J:   22  40.389   2.321   0.945   0.722   0.952   0.714  CB 1.677
+  1.12  1.12  2.25 12.36 20.22  8.99  4.49  5.62  1.12  42.697   3.989   1.078
+    26 residues pruned to eliminate duplicates
+ K:   28  33.829   2.490   0.447   0.460   0.963   0.519  CB 1.955
+  0.00  0.88  4.42  3.54  1.77  1.77  2.65  0.88  0.88  83.186   5.065   1.885
+ L:   10  20.883   2.563   0.547   0.656   0.778   0.778  CB 1.953
+  0.00  0.00  0.00  0.00  0.00  9.76 12.20 14.63 17.07  46.341   1.838   1.069
+ M:   13  16.258   2.164   0.644   0.455   0.833   0.583  CB 1.658
+  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.89  98.113   2.376   2.302
+ N:    8  19.267   2.113   0.634   0.810   1.000   0.714  CB 1.611
+  0.00  0.00  0.00  0.00  0.00  3.03  0.00  0.00  0.00  96.970   1.479   2.102
+ O:    7   9.335   2.166  -0.055   0.739   0.833   0.833  CB 1.803
+  0.00  0.00  0.00  0.00  3.45  0.00  3.45  0.00  3.45  89.655   1.300   1.808
+ P:   13   5.883   1.771   0.139   0.460   0.750   0.667  CB 1.169
+  0.00  0.00  1.89  5.66 13.21  9.43  3.77 11.32  7.55  47.170   2.376   1.315
+ Q:   12  24.292   2.129   0.713   0.795   1.000   0.818  CA 1.550
+  4.08  0.00 10.20  8.16 12.24  8.16 14.29 12.24 10.20  20.408   2.196   0.717
+    12 residues pruned to eliminate duplicates
+ R:   12  23.257   2.132   0.710   0.836   0.909   0.636  CB 1.583
+  0.00  2.04  0.00  6.12 14.29 10.20 10.20  8.16  2.04  46.939   2.196   0.998
+    12 residues pruned to eliminate duplicates
+ S:    6   3.445   1.610  -0.347   0.851   0.800   0.800  O 1.354
+  0.00  0.00  0.00  0.00  0.00  0.00  8.00  8.00  0.00  84.000   1.121   1.804
+       8   1.207   1.209  -0.580   0.641   0.857   0.857  CA 0.919 ?
+  0.00  0.00  0.00  0.00  0.00  0.00  3.03  0.00  0.00  96.970   1.479   2.206
+       8   1.535   1.104  -0.118   0.652   0.857   0.857  O 0.604 ?
+  0.00  0.00  0.00  0.00  0.00  3.03  3.03  0.00  3.03  90.909   1.479   2.091
+       6   1.891   1.035   0.287   0.900   1.000   1.000  CB 0.454 ?
+  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 100.000   1.121   2.126
+       6   1.480   0.889  -0.179   0.888   1.000   1.000  N 0.653 ?
+  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 100.000   1.121   2.500
+ T:   10   4.496   1.079   0.532   0.662   0.889   0.889  N 0.877
+  0.00  0.00  0.00  0.00  0.00  0.00  0.00  2.44  2.44  95.122   1.838   2.109
+ U:    8   3.534   1.294   0.034   0.768   1.000   0.857  CB 0.787
+  3.03 21.21  3.03  9.09  9.09 18.18 15.15  0.00  6.06  15.152   1.479   0.616
+
+   136 potential tripeptides employed
+
+   #(CA)   CFOM   DenFit  NH...O  SecStr  Rama98  Rama80  DenMin (?=rej.)
+ V:    9   5.343   2.146  -0.177   0.361   0.750   0.500  O 1.655
+  0.00  2.70  0.00  0.00  0.00  0.00  0.00  0.00  0.00  97.297   1.658   2.281
+ W:   17   9.427   2.172  -0.106   0.335   0.812   0.500  CB 1.788
+  1.45  1.45  1.45  2.90 14.49  2.90  1.45  4.35  4.35  65.217   3.093   1.393
+    17 residues pruned to eliminate duplicates
+ X:   17   6.890   1.751   0.081   0.401   0.812   0.500  CB 1.244
+  0.00  0.00  0.00  1.45  5.80  8.70 10.14  4.35  2.90  66.667   3.093   1.641
+    17 residues pruned to eliminate duplicates
+       8   1.602   1.699  -0.468   0.423   0.857   0.571  CB 0.847 ?
+  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  3.03  96.970   1.479   2.136
+ Y:   21  21.498   2.258   0.297   0.429   0.950   0.700  CB 1.860
+  0.00  1.18  5.88  4.71  2.35  0.00  4.71  5.88  8.24  67.059   3.810   1.570
+    21 residues pruned to eliminate duplicates
+ Z:    6   4.019   1.552   0.288   0.532   1.000   1.000  CB 0.872
+  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  8.00  92.000   1.121   1.663
+ Z:    8   2.064   1.473   0.005   0.288   0.857   0.286  CB 0.780
+  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  3.03  96.970   1.479   2.154
+ Z:    9   5.150   1.968  -0.073   0.287   0.750   0.500  CA 1.693
+  0.00  0.00  2.70  2.70  0.00  0.00  2.70  0.00  2.70  89.189   1.658   1.827
+     8 residues pruned to eliminate duplicates
+ Z:    8   3.372   1.825   0.076   0.211   0.571   0.429  C 1.596
+  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  3.03  96.970   1.479   2.074
+     8 residues pruned to eliminate duplicates
+ Z:   29  12.936   2.189   0.070   0.387   0.679   0.500  CB 1.734
+  0.00  3.42  3.42  8.55 10.26  3.42  2.56  0.85  1.71  65.812   5.244   1.652
+    29 residues pruned to eliminate duplicates
+ Z:    7   4.248   1.317   0.436   0.614   0.833   0.667  CB 0.988
+  0.00  0.00  0.00  0.00  0.00  3.45  0.00  0.00  3.45  93.103   1.300   2.070
+       6   1.308   1.013   0.017   0.280   0.800   0.400  C 0.911 ?
+  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 100.000   1.121   2.094
+ Z:    6   2.519   1.216   0.425   0.445   1.000   0.800  CB 0.688
+  0.00  0.00  0.00  0.00  0.00  0.00  4.00  0.00  0.00  96.000   1.121   2.200
+ Z:    9   2.182   1.121   0.101   0.278   0.875   0.250  CB 0.918
+  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 100.000   1.658   2.251
+       6   1.263   0.982   0.338   0.294   0.600   0.600  O 0.902 ?
+  0.00  0.00  8.00  0.00  4.00  0.00  4.00  4.00  0.00  80.000   1.121   1.607
+       8   1.805   1.352   0.294   0.213   0.571   0.429  C 0.957 ?
+  0.00  3.03  0.00  0.00  0.00  0.00  0.00  0.00  0.00  96.970   1.479   2.079
+ Z:    6   3.472   1.776   0.227   0.591   0.600   0.600  CB 1.089
+  0.00  0.00  0.00  0.00  0.00  4.00  0.00  0.00  0.00  96.000   1.121   2.057
+
+   0 Splices to join chains,  0 cis peptide(s) found
+
+ Global chain diagnostics:
+  0.98  4.27  6.04  7.29  7.82  6.31  4.71  3.20  2.40  56.978  50.426   1.375
+  24.7% of CA within 1.0A,  12.8% within 0.5A and  18.1% incorrect CA
+
+   277 residues left after pruning, divided into chains as follows:
+ A:  29   B:  46   C:  13   D:  20   E:  31   F:  16   G:  20   H:  10   I:  13
+ J:   8   K:   7   L:   6   M:   6   N:   7   O:   9   P:  28   Q:   8
+
+  85.2% starting CA preserved within 1.0A,  81.9% / 0.7A and  77.6% / 0.5A
+
+ CC for partial structure against native data =  15.39 %
+ <cos> 0.234 / 0.215  <fom> 0.468 / 0.761  MPE  72.7 / 70.6  wMPE 66.9 / 66.6
+ <cos> 0.253 / 0.225  <fom> 0.644 / 0.791  MPE  71.3 / 69.8  wMPE 66.3 / 65.7
+
+ ------------------------------------------------------------------------------
+
+ Global autotracing cycle   2
+
+ <cos> 0.253 / 0.225  <fom> 0.644 / 0.791  MPE  71.3 / 69.8  wMPE 66.3 / 65.7
+ <wt> = 0.589 for fragment phases
+ <cos> 0.255 / 0.226  <fom> 0.300 / 0.358  MPE  71.2 / 69.6  wMPE 66.3 / 65.3
+ <wt> = 0.274, Contrast = 0.488, Connect. = 0.627 for dens.mod. cycle 1
+ <cos> 0.258 / 0.239  <fom> 0.300 / 0.385  MPE  70.9 / 68.5  wMPE 65.5 / 62.0
+ <wt> = 0.274, Contrast = 0.502, Connect. = 0.625 for dens.mod. cycle 2
+ <cos> 0.260 / 0.240  <fom> 0.300 / 0.417  MPE  70.7 / 68.4  wMPE 64.9 / 59.8
+ <wt> = 0.274, Contrast = 0.556, Connect. = 0.657 for dens.mod. cycle 3
+ <cos> 0.263 / 0.242  <fom> 0.300 / 0.441  MPE  70.5 / 68.2  wMPE 64.3 / 58.6
+ <wt> = 0.274, Contrast = 0.585, Connect. = 0.677 for dens.mod. cycle 4
+ <cos> 0.266 / 0.247  <fom> 0.300 / 0.461  MPE  70.3 / 67.8  wMPE 63.7 / 58.0
+ <wt> = 0.274, Contrast = 0.604, Connect. = 0.689 for dens.mod. cycle 5
+ <cos> 0.269 / 0.244  <fom> 0.300 / 0.474  MPE  70.1 / 68.0  wMPE 63.2 / 57.9
+ <wt> = 0.274, Contrast = 0.619, Connect. = 0.700 for dens.mod. cycle 6
+ <cos> 0.271 / 0.243  <fom> 0.300 / 0.484  MPE  69.9 / 68.1  wMPE 62.8 / 57.9
+ <wt> = 0.274, Contrast = 0.632, Connect. = 0.708 for dens.mod. cycle 7
+ <cos> 0.274 / 0.241  <fom> 0.300 / 0.491  MPE  69.7 / 68.3  wMPE 62.3 / 57.9
+ <wt> = 0.274, Contrast = 0.641, Connect. = 0.714 for dens.mod. cycle 8
+ <cos> 0.277 / 0.243  <fom> 0.300 / 0.496  MPE  69.5 / 68.1  wMPE 62.0 / 57.9
+ <wt> = 0.274, Contrast = 0.650, Connect. = 0.719 for dens.mod. cycle 9
+ <cos> 0.279 / 0.238  <fom> 0.300 / 0.499  MPE  69.4 / 68.6  wMPE 61.7 / 58.1
+ <wt> = 0.274, Contrast = 0.656, Connect. = 0.723 for dens.mod. cycle 10
+
+ Shift from model in .ent:  dx= 0.000  dy= 0.000  dz= 0.014
+
+ Estimated mean FOM and mapCC as a function of resolution
+ d    inf - 4.58 - 3.62 - 3.15 - 2.87 - 2.66 - 2.50 - 2.37 - 2.27 - 2.18 - 2.10
+ <FOM>   0.487  0.529  0.417  0.415  0.386  0.365  0.331  0.293  0.266  0.246
+ <mapCC> 0.684  0.755  0.612  0.599  0.584  0.555  0.514  0.479  0.474  0.430
+ N        5117   5157   5230   4956   5189   5180   5332   4969   5268   4739
+
+ Estimated mean FOM = 0.374   Pseudo-free CC = 43.05 %
+
+ Best trace (cycle   1 with CC 15.39%) was saved as 3.pdb
+
+ ==============================================================================
+
+       CPU times required in seconds
+       -----------------------------
+         5.0 - Setup, data input and phasing
+         7.0 - FFTs and peak-searches
+        10.2 - Sphere of influence
+         0.4 - Rest of density modification
+      1045.7 - Alpha-helix search
+       570.0 - Tripeptide search
+       129.6 - Chain tracing
+         0.0 - NCS analysis
+        20.8 - B-value refinement for trace
+         0.3 - Rest of tracing
+         7.1 - Comparison with known structure
+
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXE finished at 18:56:55      Total time:      1796.11 secs  +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
